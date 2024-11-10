@@ -1,0 +1,109 @@
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding:0;
+  }
+
+  
+  #first {
+
+    background-color: black;
+    color: yellowgreen;
+    text-align: center;
+    padding: 35px;
+  }
+
+  #first h1 {
+    font-size: 2.5em;
+  }
+  
+
+  
+  #last {
+    background-color: black;
+    color: yellowgreen;
+    text-align: center;
+    padding: 30px;
+  }
+
+  #second {
+   background-image: url("../images/curso.png"); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 15px 5px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  #second::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1;
+  }
+
+  #second > div {
+    position: relative;
+    z-index: 2;
+    max-width: 600px;
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #e00043;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #d0003b;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-links {
+    margin-bottom: 5px;
+  }
+  
+  .footer-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  footer p {
+    font-size: 0.9em;
+    color: #aaa;
+    margin: 10px 0 0;
+  }
+  
